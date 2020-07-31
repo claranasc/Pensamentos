@@ -62,6 +62,7 @@
 		2579575624D0E13600E67268 /* Pensamentos */ = {
 			isa = PBXGroup;
 			children = (
+				2579575724D0E13600E67268 /* AppDelegate.swift */,
 				2579576D24D0E33300E67268 /* Files */,
 				259EBA8124D39AF600825453 /* Controllers */,
 				259EBA8224D39B4300825453 /* Views */,
@@ -83,7 +84,6 @@
 		259EBA8124D39AF600825453 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				2579575724D0E13600E67268 /* AppDelegate.swift */,
 				259EBA7F24D39AD200825453 /* SettingsViewController.swift */,
 				2579575924D0E13600E67268 /* SceneDelegate.swift */,
 				259EBA7D24D39A5900825453 /* QuotesViewController.swift */,

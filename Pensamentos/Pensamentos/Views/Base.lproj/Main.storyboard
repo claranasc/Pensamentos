@@ -68,6 +68,12 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Pensamentos" image="quote.bubble" catalog="system" id="DBi-PY-A8J"/>
+                    <connections>
+                        <outlet property="ivPhoto" destination="A4K-3v-gOU" id="lft-eM-EW4"/>
+                        <outlet property="ivPhotoBg" destination="Hgi-zB-4Qo" id="qa3-Do-7E1"/>
+                        <outlet property="lbAuthor" destination="45J-dX-tgb" id="Xej-4h-Tpu"/>
+                        <outlet property="lbQuote" destination="R3L-Bt-K4I" id="8SN-3w-6f5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -114,6 +120,9 @@
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kom-SL-agY">
                                 <rect key="frame" x="182.5" y="129.5" width="51" height="31"/>
                                 <color key="onTintColor" red="0.75294117650000003" green="0.37647058820000001" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="changeAutorefresh:" destination="Qbr-bV-9TU" eventType="valueChanged" id="eLW-RB-GS0"/>
+                                </connections>
                             </switch>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CHe-nI-8Or">
                                 <rect key="frame" x="0.0" y="180.5" width="414" height="2"/>
@@ -125,6 +134,9 @@
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="22" minValue="5" maxValue="30" translatesAutoresizingMaskIntoConstraints="NO" id="6Vu-uM-22z">
                                 <rect key="frame" x="48" y="264.5" width="308" height="31"/>
                                 <color key="minimumTrackTintColor" red="0.75294117650000003" green="0.37647058820000001" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="changeTimeInterval:" destination="Qbr-bV-9TU" eventType="valueChanged" id="r8r-yj-zRC"/>
+                                </connections>
                             </slider>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T3Q-7y-ffS">
                                 <rect key="frame" x="0.0" y="314.5" width="414" height="2"/>
@@ -140,6 +152,9 @@
                                     <segment title="Claro"/>
                                     <segment title="Escuro"/>
                                 </segments>
+                                <connections>
+                                    <action selector="changeColorScheme:" destination="Qbr-bV-9TU" eventType="valueChanged" id="ALb-tQ-Rb1"/>
+                                </connections>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Obs.: Para mudar de pensamento basta tocar em qualquer lugar na tela &quot;Pensamentos&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ntk-9t-kKz">
                                 <rect key="frame" x="24" y="737" width="366" height="41"/>
@@ -184,6 +199,12 @@
                         <viewLayoutGuide key="safeArea" id="Xog-ma-UQJ"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Configurações" image="settings" id="yz5-CN-WzI"/>
+                    <connections>
+                        <outlet property="lbTimeInterval" destination="Ox6-mr-0NI" id="9tl-zs-ngz"/>
+                        <outlet property="scColorScheme" destination="DMo-MO-9cu" id="Yde-CB-BJ8"/>
+                        <outlet property="slTimeInterval" destination="6Vu-uM-22z" id="fXD-al-Jhr"/>
+                        <outlet property="swAutorefresh" destination="Kom-SL-agY" id="XpW-ZF-OLX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9kd-oB-8dQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
