@@ -15,7 +15,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Hgi-zB-4Qo">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.25" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Hgi-zB-4Qo">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AQS-gW-iF8">
@@ -69,11 +69,11 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Pensamentos" image="quote.bubble" catalog="system" id="DBi-PY-A8J"/>
                     <connections>
-                        <outlet property="ctTop" destination="AHp-j8-QEn" id="Xg6-i8-KQz"/>
                         <outlet property="ivPhoto" destination="A4K-3v-gOU" id="lft-eM-EW4"/>
                         <outlet property="ivPhotoBg" destination="Hgi-zB-4Qo" id="qa3-Do-7E1"/>
                         <outlet property="lbAuthor" destination="45J-dX-tgb" id="Xej-4h-Tpu"/>
                         <outlet property="lbQuote" destination="R3L-Bt-K4I" id="8SN-3w-6f5"/>
+                        <outlet property="lcTop" destination="AHp-j8-QEn" id="3oU-Pp-bhu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
