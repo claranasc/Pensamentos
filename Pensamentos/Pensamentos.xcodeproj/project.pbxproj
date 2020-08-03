@@ -10,11 +10,11 @@
 		2515A22124D3A2350088F4CC /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515A22024D3A2350088F4CC /* Quote.swift */; };
 		2515A22424D3A2EA0088F4CC /* QuotesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515A22324D3A2EA0088F4CC /* QuotesManager.swift */; };
 		2515A22624D3A34D0088F4CC /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515A22524D3A34D0088F4CC /* Configuration.swift */; };
+		252C8D0824D8CADD009EBA22 /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = 2579576E24D0E37400E67268 /* quotes.json */; };
 		2579575824D0E13600E67268 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2579575724D0E13600E67268 /* AppDelegate.swift */; };
 		2579575F24D0E13600E67268 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2579575D24D0E13600E67268 /* Main.storyboard */; };
 		2579576124D0E13800E67268 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2579576024D0E13800E67268 /* Assets.xcassets */; };
 		2579576424D0E13800E67268 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2579576224D0E13800E67268 /* LaunchScreen.storyboard */; };
-		2579577024D0E37400E67268 /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = 2579576E24D0E37400E67268 /* quotes.json */; };
 		2579577124D0E37400E67268 /* Savoye LET.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 2579576F24D0E37400E67268 /* Savoye LET.ttc */; };
 		259EBA7E24D39A5900825453 /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259EBA7D24D39A5900825453 /* QuotesViewController.swift */; };
 		259EBA8024D39AD200825453 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259EBA7F24D39AD200825453 /* SettingsViewController.swift */; };
@@ -172,8 +172,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2579577024D0E37400E67268 /* quotes.json in Resources */,
 				2579576424D0E13800E67268 /* LaunchScreen.storyboard in Resources */,
+				252C8D0824D8CADD009EBA22 /* quotes.json in Resources */,
 				2579576124D0E13800E67268 /* Assets.xcassets in Resources */,
 				2579577124D0E37400E67268 /* Savoye LET.ttc in Resources */,
 				2579575F24D0E13600E67268 /* Main.storyboard in Resources */,
