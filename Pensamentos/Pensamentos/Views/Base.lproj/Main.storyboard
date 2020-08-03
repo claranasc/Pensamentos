@@ -69,6 +69,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Pensamentos" image="quote.bubble" catalog="system" id="DBi-PY-A8J"/>
                     <connections>
+                        <outlet property="ctTop" destination="AHp-j8-QEn" id="Xg6-i8-KQz"/>
                         <outlet property="ivPhoto" destination="A4K-3v-gOU" id="lft-eM-EW4"/>
                         <outlet property="ivPhotoBg" destination="Hgi-zB-4Qo" id="qa3-Do-7E1"/>
                         <outlet property="lbAuthor" destination="45J-dX-tgb" id="Xej-4h-Tpu"/>
