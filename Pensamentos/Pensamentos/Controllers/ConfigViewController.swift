@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SettingsViewController: UIViewController {
+class ConfigViewController: UIViewController {
 
     @IBOutlet weak var swAutorefresh: UISwitch!
     @IBOutlet weak var slTimeInterval: UISlider!

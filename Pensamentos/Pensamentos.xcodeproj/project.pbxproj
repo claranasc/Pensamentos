@@ -17,7 +17,7 @@
 		2579576424D0E13800E67268 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2579576224D0E13800E67268 /* LaunchScreen.storyboard */; };
 		2579577124D0E37400E67268 /* Savoye LET.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 2579576F24D0E37400E67268 /* Savoye LET.ttc */; };
 		259EBA7E24D39A5900825453 /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259EBA7D24D39A5900825453 /* QuotesViewController.swift */; };
-		259EBA8024D39AD200825453 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259EBA7F24D39AD200825453 /* SettingsViewController.swift */; };
+		259EBA8024D39AD200825453 /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259EBA7F24D39AD200825453 /* ConfigViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +33,7 @@
 		2579576E24D0E37400E67268 /* quotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quotes.json; sourceTree = "<group>"; };
 		2579576F24D0E37400E67268 /* Savoye LET.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Savoye LET.ttc"; sourceTree = "<group>"; };
 		259EBA7D24D39A5900825453 /* QuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
-		259EBA7F24D39AD200825453 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		259EBA7F24D39AD200825453 /* ConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +99,7 @@
 		259EBA8124D39AF600825453 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				259EBA7F24D39AD200825453 /* SettingsViewController.swift */,
+				259EBA7F24D39AD200825453 /* ConfigViewController.swift */,
 				259EBA7D24D39A5900825453 /* QuotesViewController.swift */,
 			);
 			path = Controllers;
@@ -192,7 +192,7 @@
 				2515A22124D3A2350088F4CC /* Quote.swift in Sources */,
 				259EBA7E24D39A5900825453 /* QuotesViewController.swift in Sources */,
 				2579575824D0E13600E67268 /* AppDelegate.swift in Sources */,
-				259EBA8024D39AD200825453 /* SettingsViewController.swift in Sources */,
+				259EBA8024D39AD200825453 /* ConfigViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
