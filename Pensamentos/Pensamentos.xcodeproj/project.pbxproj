@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		250D793924E1FF3B009B3477 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 250D793824E1FF3B009B3477 /* Settings.bundle */; };
 		2515A22124D3A2350088F4CC /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515A22024D3A2350088F4CC /* Quote.swift */; };
 		2515A22424D3A2EA0088F4CC /* QuotesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515A22324D3A2EA0088F4CC /* QuotesManager.swift */; };
 		2515A22624D3A34D0088F4CC /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2515A22524D3A34D0088F4CC /* Configuration.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		250D793824E1FF3B009B3477 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = Pensamentos/Settings.bundle; sourceTree = SOURCE_ROOT; };
 		2515A22024D3A2350088F4CC /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 		2515A22324D3A2EA0088F4CC /* QuotesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesManager.swift; sourceTree = "<group>"; };
 		2515A22524D3A34D0088F4CC /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				259EBA8224D39B4300825453 /* Views */,
 				2579576024D0E13800E67268 /* Assets.xcassets */,
 				2579576524D0E13800E67268 /* Info.plist */,
+				250D793824E1FF3B009B3477 /* Settings.bundle */,
 			);
 			path = Pensamentos;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 				252C8D0824D8CADD009EBA22 /* quotes.json in Resources */,
 				2579576124D0E13800E67268 /* Assets.xcassets in Resources */,
 				2579577124D0E37400E67268 /* Savoye LET.ttc in Resources */,
+				250D793924E1FF3B009B3477 /* Settings.bundle in Resources */,
 				2579575F24D0E13600E67268 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
