@@ -1,5 +1,5 @@
 //
-//  SettingsViewController.swift
+//  ConfigViewController.swift
 //  Pensamentos
 //
 //  Created by Clara Nascimento on 30/07/20.
@@ -39,12 +39,16 @@ class ConfigViewController: UIViewController {
     
     
     @IBAction func changeAutorefresh(_ sender: UISwitch) {
+        config.autorefresh = sender.isOn
     }
+    
     @IBAction func changeTimeInterval(_ sender: UISlider) {
+        let value = Double(sender.value)
+         changeTimeIntervalLabel(with: value)
+        config.timeInterval = value
     }
+    
     @IBAction func changeColorScheme(_ sender: UISegmentedControl) {
+        config.colorScheme = sender.selectedSegmentIndex
     }
-    
-    
-    
 }
