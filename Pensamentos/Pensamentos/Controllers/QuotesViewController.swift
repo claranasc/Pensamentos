@@ -70,6 +70,5 @@ class QuotesViewController: UIViewController {
             self.lcTop.constant = 10
             self.view.layoutIfNeeded()
         }
-        
     }
 }
