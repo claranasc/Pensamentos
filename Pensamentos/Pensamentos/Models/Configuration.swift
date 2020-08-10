@@ -14,7 +14,6 @@ enum UserDefaultsKeys: String {
     case autorefresh = "autorefresh"
 }
 
-
 class Configuration {
     
     let defaults = UserDefaults.standard
@@ -52,5 +51,4 @@ class Configuration {
             defaults.set(8.0, forKey: UserDefaultsKeys.timeInterval.rawValue)
         }
     }
-    
 }

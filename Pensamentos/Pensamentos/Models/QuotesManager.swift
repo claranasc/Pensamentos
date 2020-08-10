@@ -22,5 +22,4 @@ class QuotesManager {
         let index = Int(arc4random_uniform(UInt32(quotes.count)))
         return quotes[index]
     }
-    
 }
